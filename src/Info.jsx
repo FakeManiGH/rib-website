@@ -1,5 +1,5 @@
 import './Info.css'
-import ImageBrowser from 'react-image-browser'
+import ImageBrowser from './react-image-browser/ImageBrowser'
 import { Helmet } from 'react-helmet'
 import bird1 from './assets/bird1.jpg'
 import bird2 from './assets/bird2.jpg'
@@ -72,8 +72,8 @@ function Info() {
         </ul>
         <br />
         <nav className="button-group">
-          <a href="#" target='_blanc'><button><span className='white'>&#10095;</span>View project in GitHub</button></a>
-          <a href="#" target='_blanc'><button><span className='white'>&#10095;</span>Download NPM</button></a>
+          <a href="https://github.com/FakeManiGH/react-image-browser" target='_blanc'><button><span className='white'>&#10095;</span>View project in GitHub</button></a>
+          <a href="https://www.npmjs.com/package/react-image-browser" target='_blanc'><button><span className='white'>&#10095;</span>Download NPM</button></a>
         </nav>
       </header>
 
@@ -126,7 +126,7 @@ function Info() {
           <h3>Import</h3>
           <pre>
             <code>
-              import ImageBrowser from ./react-image-browser
+              import ImageBrowser from &apos;react-image-browser&apos;
             </code>
           </pre>
           <p>Import ImageBrowser component from react-image-browser.js file.</p>
